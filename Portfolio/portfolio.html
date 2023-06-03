@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            PORTFOLIO
+       </div>
+        <div class="content">
+            <a href="#" class="nav">About</a>
+            <a href="#" class="nav">Skills</a>
+            <a href="#" class="nav">Experience</a>
+            <a href="#contact" class="nav">Contact</a>
+        </div>
+    </header>
+    <section class="content">
+        <article class="intro">
+            <p>Hello !! I'm <b id="des">Riya Roy.</b><br>I am currently pursing my B.Tech degree<br> from <b>Techno India University</b>.</p>
+            <a href="RiyaRoy_CV.pdf" download="resume"><button>Resume</button></a>
+        </article>
+        <article class="photo">
+            <img src="me.jpeg" width="250px">
+        </article>
+    </section>
+    <section>
+        <div class="skills">
+            <div id="tech">
+                <h1>Technical Skills</h1>
+                <p>Programming</p>
+                <p>C,C++,Java</p>
+                <p>Web Development</p>
+                <p>HTML,CSS,Javascript</p>
+                <p>Fundamentals</p>
+                <p>Operating Systems,DBMS</p>
+            </div>
+            <div id="soft">
+                <h1>Soft Skills</h1>
+                <p>Language</p>
+                <p>English,Bengali,Hindi</p>
+                <p>Personal Skills</p>
+                <p>Time Manager,Leadership</p>
+                <p>Hobbies</p>
+                <p>Badminton,Drawing</p>
+            </div>
+            <div class="edu">
+                <h1>Education</h1>
+                <p>Techno India University[2020-Present]</p>
+                <p>CGPA of 9.03 till 5th Semester.</p>
+                <p>Vivekananda Mission School[ISC 2020]</p>
+                <p>Best of four:89.75%</p>
+                <p>Vivekananda Mission School[ICSE 2018]</p>
+                <p>Best of five:94.2%</p>
+            </div>
+            <div class="achi">
+                <h1>Achievements</h1>
+                <p>Earned 5 star[Gold Badge] for C++ at HackerRank.</p>
+                <p>Earned 4 star[Silver Badge] for C at HackerRank.</p>
+                <p>Earned Champion Badge at Coding Ninjas.</p>
+                <p>Institute Rank 70 in Geeks for Geeks.</p>
+            </div>
+    </section>
+    <div id="contact">
+    <section>
+        <h2>Contact Form</h2>
+        <form id="contact-form">
+            <label for="name">Name: </label><input placeholder="Name" id="name" type="text" /><br>
+            <label for="email">Email: </label><input placeholder="Email" id="email" type="email" /><br>
+            <textarea placeholder="Feedback" cols="27"></textarea><br>
+            <center><button onclick="alert('Successfully Submitted')">Submit</button></center>
+        </form>
+    </section>
+    <section id="connect">
+        <p>Connect me through&nbsp;</p>
+        <a href="https://www.linkedin.com/in/riya-roy-b595b9202/"><img src="icon.png" width="50px"></a>
+    </section>
+    </div>
+</body>
+</html>
