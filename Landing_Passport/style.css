@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+}
+.tag{
+    padding-left: 10px;
+}
+.navbar{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:black;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.nav{
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+ a:hover{
+    opacity: 0.8;
+}
+.content{
+    display: inline-block;
+    padding: 10px;
+}
+.con{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    display: block;
+    border: 10px;
+    margin: 10px;
+    text-align: center;
+    color: blueviolet;
+}
+.desp{
+    display: block;
+    padding: 10px;
+}
+.main1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.image{
+    padding-top: 10px;
+}
+body{
+    background-image: linear-gradient(to bottom right, #FF9933, #FFFFFF, #138808);
+}
+button{
+    border-radius: 50px;
+    background-color: tomato;
+}
+button:hover{
+    opacity: 0.5;
+}
+.port{
+    display: flex;
+    justify-content:right;
+    padding-top: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+}
+main{
+    height: 69vh;
+}
